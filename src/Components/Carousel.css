@@ -1,0 +1,39 @@
+.aabbcc {
+    width: 100%;
+}
+
+.aabbcc section {
+    min-width: 100%;
+    height: auto;
+    display: flex;
+    /* overflow: auto; */
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    background-color: aqua;
+}
+
+.aabbcc section:nth-child(2) {
+    background-color: bisque;
+}
+
+.aabbcc section:nth-child(3) {
+    background-color: aquamarine;
+}
+
+.aabbcc section:nth-child(4) {
+    background-color: rosybrown;
+}
+
+.aabbcc section .content {
+    max-width: 800px;
+    padding: 40px;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+/* .aabbcc section .content h1 {
+    font-size: 4em;
+    color: #111;
+    text-align: center;
+} */
